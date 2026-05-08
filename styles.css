@@ -1,1 +1,45 @@
 /*  your css code here. If applicable */
+body {
+    font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 20px;
+  }
+
+  .testimonial-container {
+    background-color: #f5f5f5;
+    padding: 50px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .testimonial-container h2 {
+    font-size: 2.5em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    color: #000;
+  }
+
+  .testimonial-box {
+    background-color: #ffffff;
+    border: 1px solid #d3d3d3;
+    padding: 30px 40px;
+    margin-bottom: 25px;
+  }
+
+  .testimonial-box:last-child {
+    margin-bottom: 0;
+  }
+
+  .testimonial-text {
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 40px; 
+    color: #000;
+  }
+  .testimonial-author {
+    text-align: right;
+    font-style: italic;
+    font-size: 1.2em;
+    margin: 0;
+    color: #000;
+  }
